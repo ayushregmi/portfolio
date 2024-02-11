@@ -21,18 +21,18 @@ const Home = () => {
   return (
     <>
       <div className="flex-grow overflow-hidden flex items-center justify-center font-protest-riot">
-        <div className=" grid grid-cols-2 gap-2 w-4/5 rounded-2xl ">
+        <div className=" flex flex-col items-start justify-center sm:grid sm:grid-cols-2 md:gap-2 w-11/12 md:w-5/6 lg:w-4/5 rounded-2xl">
           <div
-            className="w-full h-full flex items-start flex-col justify-center p-10 gap-2"
+            className="w-full h-full flex items-start flex-col justify-center px-5 sm:px-10 sm:px-0 sm:py-0 sm:p-10 gap-2 order-2 sm:order-1"
             data-aos="fade-right"
           >
-            <div className="text-[4rem] flex flex-col leading-none">
+            <div className="text-[2rem] md:text-[3rem] lg:text-[4rem] flex flex-col leading-none">
               <span>Hi There,</span>
               <span>
                 I'm <span className="text-red-800">Aayush Regmi</span>
               </span>
             </div>
-            <div className="text-4xl mt-3">
+            <div className="text-lg md:text-2xl lg:text-4xl mt-3">
               I am into{" "}
               <Typing
                 words={list_1}
@@ -44,7 +44,7 @@ const Home = () => {
             <div className="mt-5 w-full flex">
               <Link
                 to="about"
-                className="bg-blue-900 text-gray-200 px-9 py-3 text-lg rounded-full flex flex-row items-center gap-2 transition duration-300 hover:scale-105 shadow-lg hover:shadow-2xl"
+                className="bg-blue-900 text-gray-200 px-7 lg:px-9 py-2 lg:py-3 text-sm md:text-base lg:text-lg rounded-full flex flex-row items-center gap-2 transition duration-300 hover:scale-105 shadow-lg hover:shadow-2xl"
               >
                 <span>About Me</span>
 
@@ -64,10 +64,10 @@ const Home = () => {
             </div>
           </div>
           <div
-            className="p-10 flex items-center justify-end"
+            className="px-5 py-10 sm:px-0 sm:py-0 sm:p-10 flex items-start justify-start sm:items-center sm:justify-end order-1 sm:order-2"
             data-aos="fade-left"
           >
-            <div className="bg-white w-80 h-80 rounded-full overflow-hidden">
+            <div className="bg-white w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
               <img
                 src={UserNotFound}
                 alt="user"

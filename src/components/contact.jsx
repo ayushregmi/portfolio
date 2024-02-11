@@ -21,9 +21,9 @@ const Contact = () => {
   return (
     <>
       <div className="flex-grow flex items-center justify-center font-protest-riot">
-        <div className="w-2/3  flex flex-row gap-2">
+        <div className="w-11/12 md:w-5/6 xl:w-2/3  flex flex-row gap-2">
           <div
-            className="w-1/2 overflow-hidden flex items-center justify-center
+            className="w-1/2 overflow-hidden sm:flex items-center justify-center hidden
           "
             data-aos="fade-down"
           >
@@ -32,10 +32,10 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="w-1/2 flex flex-col gap-6 justify-center"
+            className="w-full sm:w-1/2 flex flex-col gap-6 justify-center p-5 lg:p-10"
             data-aos="fade-up"
           >
-            <div className="text-center text-4xl mb-6">
+            <div className="text-center text-3xl lg:text-4xl mb-6">
               Leave a <span className="text-red-900">Message</span>
             </div>
             <div className="w-full relative">
@@ -49,7 +49,7 @@ const Contact = () => {
                 }}
                 type="text"
                 placeholder="Name"
-                className="w-4/5 h-10 outline-none rounded-xl pl-10 font-protest-riot"
+                className="w-full h-10 outline-none rounded-xl pl-10 font-protest-riot"
               />
             </div>
             <div className="w-full relative">
@@ -63,7 +63,7 @@ const Contact = () => {
                 }}
                 type="email"
                 placeholder="Email"
-                className="w-4/5 h-10 outline-none  rounded-xl pl-10 font-protest-riot"
+                className="w-full h-10 outline-none  rounded-xl pl-10 font-protest-riot"
               />
             </div>
             <div className="w-full relative">
@@ -76,10 +76,10 @@ const Contact = () => {
                   setMessage(e.target.value);
                 }}
                 placeholder="Message"
-                className="w-4/5 py-2 max-h-96 h-40 outline-none  rounded-xl font-protest-riot px-10"
+                className="w-full py-2 max-h-96 h-40 outline-none  rounded-xl font-protest-riot px-10"
               />
             </div>
-            <div className="flex justify-end w-4/5">
+            <div className="flex justify-end w-full">
               <button
                 onSubmit={(e) => {
                   handleSubmit(e);
