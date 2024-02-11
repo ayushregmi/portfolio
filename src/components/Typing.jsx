@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Batman from "../assets/batman-pixel-art.gif";
 
 const Typing = ({ words, typing_delay, delete_delay, className }) => {
   const [currentText, setCurrentText] = useState("");
@@ -58,7 +59,16 @@ const Typing = ({ words, typing_delay, delete_delay, className }) => {
 
   return (
     <>
-      <span className={className}>{currentText}</span>
+      <span className={className + ""}>
+        {currentText}
+        <img
+          src={Batman}
+          alt=""
+          className={`w-10 h-10 object-contain inline ${
+            writing ? "" : "translate -scale-x-100"
+          }`}
+        />
+      </span>
     </>
   );
 };
