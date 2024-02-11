@@ -15,6 +15,9 @@ module.exports = {
         xss: "",
         xmm: "",
       },
+      boxShadow: {
+        shadow: "-1px -1px 6px 6px rgba(126,126,126,0.3)",
+      },
     },
   },
   plugins: [],

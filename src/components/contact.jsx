@@ -49,7 +49,7 @@ const Contact = () => {
                 }}
                 type="text"
                 placeholder="Name"
-                className="w-full h-10 outline-none rounded-xl pl-10 font-protest-riot"
+                className="w-full h-10 outline-none rounded-xl transition duration-300 hover:shadow-shadow focus:shadow-shadow pl-10 font-protest-riot"
               />
             </div>
             <div className="w-full relative">
@@ -63,7 +63,7 @@ const Contact = () => {
                 }}
                 type="email"
                 placeholder="Email"
-                className="w-full h-10 outline-none  rounded-xl pl-10 font-protest-riot"
+                className="w-full h-10 outline-none hover:shadow-shadow transition duration-300 focus:shadow-shadow rounded-xl pl-10 font-protest-riot"
               />
             </div>
             <div className="w-full relative">
@@ -76,7 +76,7 @@ const Contact = () => {
                   setMessage(e.target.value);
                 }}
                 placeholder="Message"
-                className="w-full py-2 max-h-96 h-40 outline-none  rounded-xl font-protest-riot px-10"
+                className="w-full py-2 max-h-96 h-40 transition duration-300 outline-none hover:shadow-shadow focus:shadow-shadow rounded-xl font-protest-riot px-10"
               />
             </div>
             <div className="flex justify-end w-full">

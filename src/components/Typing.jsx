@@ -64,7 +64,7 @@ const Typing = ({ words, typing_delay, delete_delay, className }) => {
         <img
           src={Batman}
           alt=""
-          className={`w-10 h-10 object-contain inline ${
+          className={`w-5 h-5 sm:w-10 sm:h-10 object-contain inline pointer-events-none ${
             writing ? "" : "translate -scale-x-100"
           }`}
         />

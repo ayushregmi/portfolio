@@ -27,7 +27,7 @@ const Home = () => {
             data-aos="fade-right"
           >
             <div className="text-[2rem] md:text-[3rem] lg:text-[4rem] flex flex-col leading-none">
-              <span>Hi There,</span>
+              <span>Hey There,</span>
               <span>
                 I'm <span className="text-red-800">Aayush Regmi</span>
               </span>
@@ -67,7 +67,7 @@ const Home = () => {
             className="px-5 py-10 sm:px-0 sm:py-0 sm:p-10 flex items-start justify-start sm:items-center sm:justify-end order-1 sm:order-2"
             data-aos="fade-left"
           >
-            <div className="bg-white w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
+            <div className="bg-white w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-shadow">
               <img
                 src={UserNotFound}
                 alt="user"
