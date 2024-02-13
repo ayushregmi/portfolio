@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf770858.css",
-    "main.js": "/static/js/main.62666a92.js",
+    "main.js": "/static/js/main.81d422cf.js",
     "static/js/592.bf6ca574.chunk.js": "/static/js/592.bf6ca574.chunk.js",
     "static/media/bg-2.jpg": "/static/media/bg-2.b26f47722bcd4c72eaf6.jpg",
     "static/media/batman-pixel-art.gif": "/static/media/batman-pixel-art.cea18dbc7a9338d85ed7.gif",
@@ -9,11 +9,11 @@
     "static/media/userNotFound.jpg": "/static/media/userNotFound.e11cf03f684dae46124c.jpg",
     "index.html": "/index.html",
     "main.bf770858.css.map": "/static/css/main.bf770858.css.map",
-    "main.62666a92.js.map": "/static/js/main.62666a92.js.map",
+    "main.81d422cf.js.map": "/static/js/main.81d422cf.js.map",
     "592.bf6ca574.chunk.js.map": "/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf770858.css",
-    "static/js/main.62666a92.js"
+    "static/js/main.81d422cf.js"
   ]
 }
