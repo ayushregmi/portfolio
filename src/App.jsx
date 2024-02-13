@@ -52,7 +52,7 @@ function App() {
           <Route path="/" element=<Home /> />
           <Route path="about" element=<About /> />
           <Route path="contact" element=<Contact /> />
-          <Route path="skills" element=<Skill /> />\
+          <Route path="skills" element=<Skill /> />
         </Routes>
         <NavBar />
       </div>
