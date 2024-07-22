@@ -48,7 +48,7 @@ const Tabs = ({ tab_info, selected }) => {
       ? "text-text-green"
       : status === "M"
       ? "text-text-yellow"
-      : "";
+      : "text-text-white";
 
   return (
     <>

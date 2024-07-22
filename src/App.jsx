@@ -11,7 +11,7 @@ import NavigationBar from "./components/NavigationBar";
 function App() {
   return (
     <>
-      <div className="flex flex-col h-screen bg-default-background font-default max-h-screen">
+      <div className="flex flex-col h-screen bg-default-background font-default max-h-screen text-white">
         <TitleBar />
         <div className="bg-black flex flex-row flex-grow flex">
           <SideBar />
