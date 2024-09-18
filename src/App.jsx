@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="flex flex-col h-screen bg-default-background font-default max-h-screen text-white">
         <TitleBar />
-        <div className="bg-black flex flex-row flex-grow flex">
+        <div className="bg-black flex flex-row flex-grow h-full">
           <SideBar />
           <div className="flex flex-col flex-grow bg-default-background relative">
             <img

@@ -113,7 +113,7 @@ const SideBarExplorer = () => {
 
   return (
     <>
-      <div className="w-[200px] ml:w-[250px] text-xs ml:text-sm xl:text-base font-extrathin text-text-white  border-r border-border-color hidden md:flex flex-col gap-y-3 py-2">
+      <div className="w-[200px] ml:w-[250px] text-xs ml:text-sm xl:text-base font-extrathin text-text-white h-full  border-r border-border-color hidden md:flex flex-col gap-y-3 py-2">
         <div className="ml-6 uppercase">EXPLORER</div>
         <div>
           <button

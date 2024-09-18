@@ -15,3 +15,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 12px;
+
+    /* height: 10px; */
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    /* border-radius: 100vh; */
+    /* background: #f7f4ed; */
+    border-left: 1px solid #010409;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    /* background: #262c32; */
+    background: rgba(38, 44, 50, 0.5);
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(38, 44, 50, 0.7);
+  }
+}

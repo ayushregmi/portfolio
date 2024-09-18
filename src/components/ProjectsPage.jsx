@@ -95,7 +95,7 @@ const ProjectsPage = () => {
     <>
       <div
         ref={divRef}
-        className="py-10 px-5 xs:px-8 sm:px-10 ml:px-20 relative w-full overflow-y-scroll overflow-x-hidden bg-default-background/95 text-4xl text-gray-300"
+        className="py-10 px-5 xs:px-8 sm:px-10 ml:px-20 relative w-full overflow-y-scroll overflow-x-hidden bg-default-background/95 text-4xl text-gray-300 scrollbar"
       >
         <div className="group relative inline-block">
           <div className="flex flex-row items-center">
