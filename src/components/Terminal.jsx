@@ -4,6 +4,9 @@ import { ChatGroq } from "@langchain/groq";
 import { PromptTemplate } from "@langchain/core/prompts";
 
 const Terminal = () => {
+  const [initialPlaceHolder, setInitialPlaceHolder] = useState(
+    "Ask me something..."
+  );
   const textRef = useRef(null);
   const [text, setText] = useState("");
   const [disableInput, setDisableInput] = useState(false);
@@ -41,7 +44,7 @@ const Terminal = () => {
   });
 
   const message =
-    "You are a chatbot that is present on my portfolio website. You will be provided a query. The query can range from a greeting to a question about the cosmos.\
+    "You are a chatbot that is present on my portfolio website, but you do not know the contents of this website. You will be provided a query. The query can range from a greeting to a question about the cosmos.\
   Your task will be to respond to the query. Keep the answer as short as possible.\
   Respond in a html format with divs, spans and a tags where necessary and use tailwind classes for styling.\
   The text size should be sm and the text colour should be white. Use colors like red, green, blue and yellow for a tags.\
@@ -85,6 +88,7 @@ const Terminal = () => {
               autoFocus
               className="w-full outline-none pl-10 bg-transparent"
               type="text"
+              placeholder={initialPlaceHolder}
               ref={textRef}
               value={text}
               onChange={onTextChange}
@@ -93,11 +97,13 @@ const Terminal = () => {
                   if (event.key === "Enter") {
                     if (text === "clear") {
                       setHistory([]);
+                      setInitialPlaceHolder("Ask me something...");
                     } else {
                       setDisableInput(true);
                       generateAnswer(text);
                       pushHistory();
                       scrollTo(textRef);
+                      setInitialPlaceHolder("");
                     }
                     setText("");
                   }
