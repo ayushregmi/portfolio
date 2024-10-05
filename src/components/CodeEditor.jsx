@@ -25,7 +25,7 @@ const CodeEditor = ({ showTerminal }) => {
               {"{"}
             </span>
           </div>
-          <div className="pl-10">
+          <a href="https://www.github.com/ayushregmi" className="pl-10">
             <span className="text-text-orange">std</span>
             ::
             <span className="text-text-orange">string</span>
@@ -38,8 +38,11 @@ const CodeEditor = ({ showTerminal }) => {
               "ayushregmi"
             </a>
             ;
-          </div>
-          <div className="pl-10">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aayush-regmi-9b82651b6/"
+            className="pl-10 block"
+          >
             <span className="text-text-orange">std</span>
             ::
             <span className="text-text-orange">string</span>
@@ -52,23 +55,17 @@ const CodeEditor = ({ showTerminal }) => {
               "Aayush Regmi"
             </a>
             ;
-          </div>
+          </a>
           <div className="pl-10">
             <span className="text-text-orange">std</span>
             ::
             <span className="text-text-orange">string</span>
             <span> email </span>
             <span className="text-text-red"> = </span>
-            <a
-              href="mailto:aregmi29@gmail.com"
-              className="text-text-light-blue"
-            >
-              "aregmi29@gmail.com"
-            </a>
-            ;
+            <span className="text-text-light-blue">"aregmi29@gmail.com"</span>;
           </div>
           <div>&nbsp;</div>
-          <div className="pl-10">
+          {/* <div className="pl-10">
             <span className="text-text-orange">std</span>
             ::cout
             <span className="text-text-purple"> &lt;&lt; </span>
@@ -95,7 +92,7 @@ const CodeEditor = ({ showTerminal }) => {
             <span className="text-text-orange">std</span>::
             <span className="text-text-purple">endl</span>;
           </div>
-          <div className="text-text-blue">{"}"}</div>
+          <div className="text-text-blue">{"}"}</div> */}
           <div>&nbsp;</div>
           <div>
             <span className="text-text-red">int</span>{" "}
@@ -106,7 +103,7 @@ const CodeEditor = ({ showTerminal }) => {
             <span className="text-text-purple">contactInfo</span>
             <span className="text-text-blue">()</span>;
           </div>
-          <div>&nbsp;</div>
+          {/* <div>&nbsp;</div> */}
           <div className="pl-10">
             <span className="text-text-red">return </span>
             <span className="text-text-light-blue">0</span>;

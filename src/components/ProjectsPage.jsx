@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { ProjectData } from "../Data/ProjectData";
+import { Link } from "react-router-dom";
 
 const ProjectsPage = () => {
   document.title = "Aayush Regmi | Projects";
@@ -117,11 +118,14 @@ const ProjectsPage = () => {
 };
 
 const ProjectsCard = ({ project }) => {
-  const { title, description, ref_img, tools } = project;
+  const { title, description, ref_img, tools, url } = project;
 
   return (
     <>
-      <div className="group bg-[#171717] relative overflow-hidden rounded-lg border-default-background hover:border-text-green border-2 flex flex-col">
+      <Link
+        to={url}
+        className="group bg-[#171717] relative overflow-hidden rounded-lg border-default-background hover:border-text-green border-2 flex flex-col"
+      >
         <div className="overflow-hidden h-[200px] rounded-lg object-center pointer-events-none">
           <img
             className="h-full w-full object-cover object-center group-hover:scale-110 duration-300"
@@ -151,7 +155,7 @@ const ProjectsCard = ({ project }) => {
             ))}
           </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 };
