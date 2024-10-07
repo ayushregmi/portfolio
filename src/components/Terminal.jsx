@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 
-import { ChatGroq } from "@langchain/groq";
-import { PromptTemplate } from "@langchain/core/prompts";
+import ChatBot from "./ChatBot";
+import info from "../Data/info.json";
 
 const Terminal = () => {
   const [initialPlaceHolder, setInitialPlaceHolder] = useState(
     "Ask me something..."
   );
+
   const textRef = useRef(null);
   const [text, setText] = useState("");
   const [disableInput, setDisableInput] = useState(false);
@@ -37,26 +38,10 @@ const Terminal = () => {
     setHistory([...history, html]);
   };
 
-  const model = new ChatGroq({
-    apiKey: "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",
-    model: "llama-3.1-70b-versatile",
-    temperature: 0,
-  });
-
-  const message =
-    "You are a chatbot that is present on my portfolio website, but you do not know the contents of this website. You will be provided a query. The query can range from a greeting to a question about the cosmos.\
-  Your task will be to respond to the query. Keep the answer as short as possible.\
-  Respond in a html format with divs, spans and a tags where necessary and use tailwind classes for styling.\
-  The text size should be sm and the text colour should be white. Use colors like red, green, blue and yellow for a tags.\
-  Do not set the height of any of the html components and answer in simple paragarphs.\
-  Query: {query}";
-
-  const prompt = PromptTemplate.fromTemplate(message);
-
-  const chain = prompt.pipe(model);
+  const c = ChatBot();
 
   const generateAnswer = async (query) => {
-    await chain.invoke({ query }).then((resp) => {
+    await c.invoke({ information: info, query }).then((resp) => {
       setHistory((prev) => [...prev, resp.content]);
       setDisableInput(false);
     });

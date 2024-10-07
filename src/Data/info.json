@@ -1,0 +1,116 @@
+{
+  "name": "Aayush Regmi",
+  "email": "aregmi29@gmail.com",
+  "contact": "9840669649",
+  "linkedin": "https://www.linkedin.com/in/aayush-regmi-9b82651b6/",
+  "github": "https://www.github.com/ayushregmi/",
+  "portfolio website": "ayushregmi.github.io/portfolio",
+  "programming languages": ["Java", "c", "C++", "javascript", "python"],
+  "technologies_and_tools": [
+    "ReactJS",
+    "Tailwind CSS",
+    "Next UI",
+    "Material UI",
+    "FastAPI",
+    "Maven",
+    "Hibernate",
+    "Spring Framework",
+    "Spring Boot",
+    "Sklearn",
+    "OpenCV",
+    "PyTorch",
+    "LangChain",
+    "NumPy",
+    "pandas",
+    "Git",
+    "Linux",
+    "Data Structures and Algorithms",
+    "Object Oriented Programming",
+    "Probability and Statistics",
+    "Linear Algebra",
+    "Calculus"
+  ],
+  "experiences": [
+    {
+      "Gritfeat solutions": {
+        "role": "ML fellowship",
+        "start date": "April 2024",
+        "end date": "July 2024",
+        "duration": "3 months",
+        "description": "During the Machine Learning Fellowship, a comprehensive understanding of essential topics was gained, including data structures and algorithms, probability and statistics, calculus, linear algebra, exploratory data analysis, and data preparation. Various machine learning techniques were explored, encompassing deep learning, natural language processing, computer vision, generative AI, and large language models. A range of tools was utilized, including NumPy, Pandas, OpenCV, NLTK, PyTorch, LangChain, Google Vision Cloud, and Scikit-learn. Notable projects included developing an encoder-decoder architecture for translating English to Nepali with and without an attention mechanism, applying transfer learning on YOLO for face detection, creating a retrieval-augmented generation (RAG) pipeline for a chatbot using a handwritten dataset, and performing multimodal classification that integrated both text and image features."
+      }
+    },
+    {
+      "Elytra solutions": {
+        "role": "Fullstack Internship",
+        "start date": "October 2023",
+        "end date": "March 2024",
+        "duration": "6 months",
+        "description": "During my fullstack internship at Elytra Solutions, I gained hands-on experience with various web development technologies, including React.js, Tailwind CSS, Material UI, and Next UI. I worked on two major projects: the first was a website for a travel agency, Rupse Holidays, where I focused on developing the frontend design. The second project involved creating a Learning Management System (LMS) website for Upschool, where I contributed to frontend development and API integration. This experience allowed me to enhance my skills and apply them in real-world scenarios."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "Rupse Holidays": {
+        "description": "Project i did during my internship at elytra solutions. A website for a travel agency, built using react js for frontend and node js on backend. I majorly worked on frontend design."
+      }
+    },
+    {
+      "Upschool": {
+        "description": "Project done during my internship at elytra solutions. Developed a lms website for upschool. I was part of the frontend team and did frontend design and api integration. Used react js for frontend and laravel for backend."
+      }
+    },
+    {
+      "Simple Blog Application": {
+        "description": "A personal project that i did. Built a simple blog application that allows users to create accounts, log in, view blogs, and write their own posts, utilizing Java Spring Boot for the backend and React.js for the frontend ",
+        "url": [
+          "https://github.com/ayushregmi/blogs_backend",
+          "https://github.com/ayushregmi/blogs_frontend"
+        ]
+      }
+    },
+    {
+      "LMS backend": {
+        "description": "Another Personal project, where i developed a REST API for a Learning Management System using Java Spring Boot, providing endpoints for user signup, login, course creation, and implementing JWT authentication",
+        "url": "https://github.com/ayushregmi/lms_backend"
+      }
+    },
+    {
+      "Text-to-Speech and Facial Landmark Generation": "College group project. Developed the audio generation component of a group project that converted user text input into audio and facial landmarks, utilizing FastSpeech2 for spectrogram generation and HiFi-GAN for audio waveform conversion"
+    },
+    {
+      "Player Recommendation System": "College group project. Handled the data processing for a group project that recommended players similar to a given player in Europe's top five football leagues. Responsibilities included scraping player statistics, creating a data pipeline for data cleaning, and using PCA along with distance metrics to determine player ratings and similarities"
+    },
+    {
+      "Handwritten PDF Chatbot": {
+        "description": "Personal Project. : Developed a project that took a handwritten PDF as input, performed OCR to extract text, utilized computer vision techniques to identify and read tables, and formed text chunks from the scanned document. Implemented a RAG pipeline with ChromaDB as the vector database to create a question-answering bot.",
+        "url": "https://github.com/ayushregmi/Handwritten-PDF-chatbot"
+      }
+    },
+    {
+      "Real-Time Face Detection System": {
+        "description": "Personsal Project. : Created a project that utilized Haar cascades to detect faces in a selfie dataset, generating a face recognition dataset. Employed transfer learning with the YOLOv8 architecture and used the pretrained model to detect faces in real-time with OpenCV",
+        "url": "https://github.com/ayushregmi/Face-Detection"
+      }
+    },
+    {
+      "Multimodel Document Classification": {
+        "description": "Personal Project.  Developed a project for document classification using images of documents and scanned text as inputs. Employed a pretrained ResNet architecture with additional dense layers for image features and a pretrained BERT model for text features, then combined the outputs to classify the documents",
+        "url": "https://github.com/ayushregmi/Multimodel-classification"
+      }
+    },
+    {
+      "Research Paper Ranking Using PageRank Algorithm": {
+        "description": "Personal Project. Implemented a PageRank algorithm for ranking research papers, utilizing citation relationships as the primary factor to assess and rank the influence and importance of each paper",
+        "url": "https://github.com/ayushregmi/PageRank"
+      }
+    },
+    {
+      "Neural Style Transfer": "https://github.com/ayushregmi/neural-style-transfer"
+    },
+    {
+      "Text Summarization": "https://github.com/ayushregmi/text-summarization"
+    }
+  ]
+}
