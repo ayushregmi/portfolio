@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "source": "/portfolio/(.*)",
+      "src": "/portfolio/(.*)",
       "destination": "/portfolio/index.html"
     },
     {
