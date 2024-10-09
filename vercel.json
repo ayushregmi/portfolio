@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/portfolio/(.*)",
-      "destination": "/portfolio/index.html"
+      "dest": "/portfolio/index.html"
     },
     {
       "src": "/portfolio/about",
