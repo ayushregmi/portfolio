@@ -1,28 +1,28 @@
 {
+  "rewrites": [
+    {
+      "source": "/portfolio/(.*)",
+      "destination": "/portfolio/index.html"
+    }
+  ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/portfolio"
+      "src": "/portfolio/about",
+      "dest": "/portfolio/index.html"
     },
     {
-      "src": "/about",
-      "dest": "/portfolio/about"
+      "src": "/portfolio/projects",
+      "dest": "/portfolio/index.html"
     },
     {
-      "src": "/projects",
-      "dest": "/portfolio/projects"
-    },
+      "src": "/portfolio/contact",
+      "dest": "/portfolio/index.html"
+    }
+  ],
+  "builds": [
     {
-      "src": "/contact",
-      "dest": "/portfolio/contact"
-    },
-    {
-      "src": "/portfolio/(.*)",
-      "dest": "/portfolio/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "index.html",
+      "use": "@vercel/static"
     }
   ]
 }
