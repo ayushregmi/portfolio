@@ -16,5 +16,11 @@
       "source": "/contact",
       "destination": "/portfolio/contact"
     }
+  ],
+  "routes": [
+    {
+      "src": "/[^.]+",
+      "dest": "/"
+    }
   ]
 }
