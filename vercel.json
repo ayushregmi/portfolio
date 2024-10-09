@@ -1,22 +1,22 @@
 {
   "rewrites": [
     {
-      "source": "/portfolio/(.*)",
-      "destination": "/portfolio/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "routes": [
     {
-      "src": "/portfolio/about",
-      "dest": "/portfolio/index.html"
+      "src": "/about",
+      "dest": "/index.html"
     },
     {
-      "src": "/portfolio/projects",
-      "dest": "/portfolio/index.html"
+      "src": "/projects",
+      "dest": "/index.html"
     },
     {
-      "src": "/portfolio/contact",
-      "dest": "/portfolio/index.html"
+      "src": "/contact",
+      "dest": "/index.html"
     }
   ]
 }
