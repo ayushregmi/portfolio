@@ -18,11 +18,5 @@
       "src": "/portfolio/contact",
       "dest": "/portfolio/index.html"
     }
-  ],
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
   ]
 }
