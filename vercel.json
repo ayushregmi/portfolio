@@ -1,26 +1,28 @@
 {
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/portfolio"
-    },
-    {
-      "source": "/about",
-      "destination": "/portfolio/about"
-    },
-    {
-      "source": "/projects",
-      "destination": "/portfolio/projects"
-    },
-    {
-      "source": "/contact",
-      "destination": "/portfolio/contact"
-    }
-  ],
   "routes": [
     {
-      "src": "/[^.]+",
-      "dest": "/"
+      "src": "/",
+      "dest": "/portfolio"
+    },
+    {
+      "src": "/about",
+      "dest": "/portfolio/about"
+    },
+    {
+      "src": "/projects",
+      "dest": "/portfolio/projects"
+    },
+    {
+      "src": "/contact",
+      "dest": "/portfolio/contact"
+    },
+    {
+      "src": "/portfolio/(.*)",
+      "dest": "/portfolio/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
