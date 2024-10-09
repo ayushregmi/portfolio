@@ -1,6 +1,6 @@
 export const pages = [
-  ["home.jsx", "reactlogo.svg", "/portfolio/", "M"],
-  ["about.md", "markdownlogo.svg", "/portfolio/about", "T"],
-  ["projects.py", "pythonlogo.svg", "/portfolio/projects", "E"],
-  ["contact.cpp", "cpplogo.svg", "/portfolio/contact", "U"],
+  ["home.jsx", "reactlogo.svg", "/", "M"],
+  ["about.md", "markdownlogo.svg", "/about", "T"],
+  ["projects.py", "pythonlogo.svg", "/projects", "E"],
+  ["contact.cpp", "cpplogo.svg", "/contact", "U"],
 ];

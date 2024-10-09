@@ -75,13 +75,13 @@ const HomePage = () => {
           </div>
           <div className="flex flex-row gap-5 text-sm mt-6">
             <Link
-              to={"/portfolio/about"}
+              to={"/about"}
               className="text-text-light-blue px-3 sm:px-5 py-1 sm:py-2 lg:py-3 border border-text-light-blue hover:bg-secondary-background/40 duration-300"
             >
               About Me
             </Link>
             <Link
-              to={"/portfolio/contact"}
+              to={"/contact"}
               className="text-text-orange border px-3 sm:px-5 py-1 sm:py-2 lg:py-3 border-text-orange hover:bg-secondary-background/40 duration-300"
             >
               Contact Me
