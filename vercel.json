@@ -1,11 +1,9 @@
 {
-  "rewrites": [
+  "routes": [
     {
       "source": "/portfolio/(.*)",
       "destination": "/portfolio/index.html"
-    }
-  ],
-  "routes": [
+    },
     {
       "src": "/portfolio/about",
       "dest": "/portfolio/index.html"
